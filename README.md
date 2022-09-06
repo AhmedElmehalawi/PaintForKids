@@ -1,26 +1,19 @@
-# Paint-For-Kids
-> Simple kids paint apps v 1.0.0 
+# Paint For Kids
+> ## C++ Desktop Application that enables kids to:-
+    - Draw some shapes (Square, Ellipse, Hexagon).
+    - Interact with theses shapes with some actions like
+        - Resizing.
+        - Send To Back.
+        - Bring To Front.
+        - Filling Color.
+        - Border Color
+        
+    - Change the background color.
+    - Save the work done as a txt file.
+    - Load the work done from a txt file.
+    - Switch between the Draw Mode and the Play Mode
 
-> app demo : 
+> ### Demo : 
 
-![this is demo](/Demo/Demo.gif)
-
-> application support : 
-
-- `DRAG` you can drag drew elements
-- `coloring` : 
-    1. coloring shapes [x]
-    2. coloring drawing board background [x]
-- `deleting` you delete any shape from the drawing board- `multi select` you can multiselect shapes
-- `top layer and back` you can change preview layer of any shape [set to back and front]
-- `save` and `load` 
-- `events` you can listen and extends any event you like 
-- `multithreading` the application ui never get blocked 
-> patterns : source GOF 
-- `command` pattern 
-- `pubsub` pattern [observer pattern]
-- `MVC` 
-- `chain of responsibility`  [dispatching menu actions]
-- `composite pattern`
-- `callback pattern` 
+ ![this is demo](/Demo/Demo.gif)
     
